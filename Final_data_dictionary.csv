@@ -1,0 +1,41 @@
+Column, Dtype, Description
+postal_code, int, Zip Code in US
+yelp_1, int,Number of 1 $ restaurants within zip code
+yelp_2, int,Number of 2 $$ restaurants within zip code
+yelp_3, int,Number of 3 $$$ restaurants within zip code
+yelp_4, int,Number of 4 $$$$ restaurants within zip code
+total_restaurants, int, Number of yelp reviewed restaurants within zip code
+review_count, float, Average amount of yelp reviews left per restaurant within zip code
+stars, float,Average yelp star rating (out of 5) of restaurant
+creditcard, float,"Percentage of restaurants that accept credit cards or not {1: Yes, 0: No}"
+bikeparking, float,"Percentage of restaurants that allow bike parking or not {1: Yes, 0: No}"
+outdoorseating, float,"Percentage of restaurants that have outdoor seating available {1: Yes, 0: No}"
+appointmentonly, float,"Percentage of restaurants that have reservations by appointment only {1: Yes, 0: No}"
+goodforkids, float,"Percentage of restaurants that are good for kids to come {1: Yes, 0: No}"
+perc_yelp_1, float,Percentage of restaurants within zip code that are rated 1 \$
+perc_yelp_2, float,Percentage of restaurants within zip code that are rated 2 \$$
+perc_yelp_3, float,Percentage of restaurants within zip code that are rated 3 \$$\$
+perc_yelp_4, float,Percentage of restaurants within zip code that are rated 4 \$$$$
+city, str, Name of City
+agi, int, Total Adjusted Gross Income (AGI) of population in zip code (represented in thousands) 
+costindex, float, Cost of living index 
+A02650, int, Total income amount by zip code (represented in thousands)
+A00200, int, Salaries and wages amount by zip code (represented in thousands)
+A00300, int, Taxable interest amount by zip code (represented in thousands)
+A00600, int, Ordinary dividends amount by zip code (represented in thousands)
+A00650, int, Qualified dividends amount by zip code (represented in thousands)
+A01000, int, Net capital gain (less loss) amount (represented in thousands) 
+agi_1, int,"Total amount of AGI returns in amount range $1-$24,999"
+agi_2, int,"Total amount of AGI returns in amount range $25000-$49,999"
+agi_3, int,"Total amount of AGI returns in amount range $50,000-$74,999"
+agi_4, int,"Total amount of AGI returns in amount range $75,000-$99,999"
+agi_5, int,"Total amount of AGI returns in amount range $100,000-$200,000"
+agi_6, int,"Total amount of AGI returns in amount range > $200,000"
+affluence, int,Rating of affluence determined by AGI returns within zip code (scale 1-6)
+medianincome, int, Median income of zip code
+zillowmeanprice19, float,Average price per square foot of households in zip code in 2019
+zillowmeanprice18, float,Average price per square foot of households in zip code in 2018
+whole_foods, int,"Zip code has a Whole Foods {1: Yes, 0: No}"
+core_power, int,"Zip code has a CorePower Yoga {1: Yes, 0: No}"
+trader_joes, int,"Zip code has a Trader Joe's {1: Yes, 0: No}"
+cluster_0, int, Additional data to help see outliers
